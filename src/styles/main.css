@@ -2,6 +2,7 @@
 @import "./hero/index.css";
 @import "./menu/index.css";
 @import "./about/index.css";
+@import "./footer/index.css";
 
 html {
     font-family: "Poppins", Arial, Helvetica, sans-serif;

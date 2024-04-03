@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footer_item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.footer_item:hover .footer_item_text {
+    text-decoration: underline;
+}
+
+.footer_item_icon {
+    --size: 2rem;
+    width: var(--size);
+    height: var(--size);
+}
