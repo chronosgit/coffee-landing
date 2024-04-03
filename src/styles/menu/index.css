@@ -1,0 +1,57 @@
+.menu {
+    padding-block: 5rem;
+}
+
+.menu_title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.menu_coffes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+}
+
+.menu_coffe {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid rgba(68, 68, 68, 0.89);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu_coffe:hover {
+    background-color: rgba(59, 59, 59, 0.288);
+}
+
+.menu_coffee_img {
+    --size: 6rem;
+    min-width: var(--size);
+    height: var(--size);
+}
+
+.menu_coffee_content, .menu_coffee_price {
+    color: white;
+}
+
+.menu_coffee_name {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu_coffee_descr {
+    opacity: 0.6;
+}   
+
+.menu_coffee_price {
+    font-size: 1.2rem;
+    font-weight: 500;
+}

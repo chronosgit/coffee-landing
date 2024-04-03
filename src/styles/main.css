@@ -1,9 +1,18 @@
 @import "./header/index.css";
+@import "./hero/index.css";
+@import "./menu/index.css";
+
+html {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
 
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-image: linear-gradient(#662a0e,rgb(56, 39, 19), #392817);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 * {
@@ -12,7 +21,11 @@ body {
     box-sizing: border-box;
 }
 
+button {
+    cursor: pointer;
+}
+
 #global_container {
-    max-width: 90rem;
+    max-width: 60rem;
     margin: 0 auto;
 }

@@ -1,0 +1,47 @@
+.hero {
+    padding-block: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    color: white;
+}
+
+.hero_label, .hero_paragraph {
+    opacity: 0.7;
+}
+
+.hero_title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.hero_btn {
+    margin-block: 1rem;
+    padding: 1rem;
+    max-width: 10rem;
+    color: rgba(255, 255, 255, 0.747);
+    background: none;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    transition: 0.3s all ease;
+}
+
+.hero_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.hero_bg {
+    --size: 20rem;
+    width: var(--size);
+    height: var(--size);
+}
