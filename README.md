@@ -1,2 +1,3 @@
-# coffee-landing
-Landing page website for coffee shop
+# Small speedrun-practice landing page for coffee shop
+
+## Made in HTML & CSS
