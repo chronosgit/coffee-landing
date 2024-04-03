@@ -1,6 +1,7 @@
 @import "./header/index.css";
 @import "./hero/index.css";
 @import "./menu/index.css";
+@import "./about/index.css";
 
 html {
     font-family: "Poppins", Arial, Helvetica, sans-serif;

@@ -1,0 +1,46 @@
+.about {
+    padding-block: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about_bg {
+    flex: 1;
+}
+
+.about_content {
+    flex: 1;
+    padding: 4rem 2rem;
+    color: white;
+    border: 2px solid #8a3c24;
+    border-radius: 1.5rem;
+}
+
+.about_title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about_paragraph {
+    margin-block: 1.5rem;
+    line-height: 1.5rem;
+    opacity: 0.7;
+}
+
+.about_btn {
+    padding: 1rem;
+    max-width: 10rem;
+    color: white;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #8a3c24;
+    border-radius: 0.5rem;
+    transition: 0.3s all ease;
+}   
+
+.about_btn:hover {
+    color: white;
+    background-color: #8a3c24;
+}
